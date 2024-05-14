@@ -1,0 +1,53 @@
+.form_mine {
+  margin: 24px;
+  border: 2px solid #ddd;
+  box-shadow: 0px 0px 5px 2px #ddd;
+  padding: 24px;
+  margin-right: 10% !important;
+  margin-left: 10% !important;
+  margin-top: 250px !important;
+}
+
+.label_edit {
+  font-size: 18px !important;
+}
+
+.input_description {
+  font-size: 12px !important;
+}
+
+.edit_description {
+  width: 100% !important;
+  margin-bottom: 12px !important;
+}
+
+.div_primary, .div_danger {
+  width: 100% !important;
+  margin-top: 12px !important;
+}
+
+.edit_primary, .edit_danger {
+  width: 100% !important;
+}
+
+.form-control {
+  font-size: 22px !important;
+}
+
+.product_description {
+  font-size: 18px;
+}
+
+.product_price {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  font-size: 18px;
+}
+
+.product_link {
+  float: right;
+  font-size: 18px;
+}
+
+/*# sourceMappingURL=style.css.map */

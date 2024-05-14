@@ -1,0 +1,75 @@
+a {
+  text-decoration: none;
+}
+
+.form {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  margin: 15%;
+  border: 2px solid #ddd;
+  box-shadow: 0px 0px 5px 2px #ddd;
+  background-color: rgb(173, 220, 235);
+}
+.form_title {
+  font-size: 36px;
+  color: black;
+}
+.form_label {
+  font-size: 24px;
+}
+.form_textarea {
+  border: 1px solid #ddd;
+  padding: 4px;
+  border-radius: 6px;
+}
+.form_field_0 {
+  display: flex;
+  justify-content: center;
+  grid-row: 1/1;
+  grid-column: 1/2;
+}
+.form_field_1 {
+  grid-row: 3/3;
+  grid-column: 1/2;
+}
+.form_field_2 {
+  grid-row: 2/3;
+  grid-column: 2/3;
+}
+.form_field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin: 6px;
+}
+.form_info {
+  font-size: 42px;
+  color: rgb(8, 7, 74);
+}
+.form_button {
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+  border-radius: 6px;
+  color: white;
+  background-color: rgb(61, 98, 233);
+  font-size: 24px;
+}
+.form_product_list {
+  background-color: red;
+}
+
+.empty {
+  color: black;
+}
+
+.ul {
+  color: black;
+}
+
+.li {
+  color: black;
+}
+
+/*# sourceMappingURL=style.css.map */

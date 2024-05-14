@@ -6,29 +6,8 @@
 
   <section class='float'>
 
-    <form method='POST' action='product-create'>
+    <form method='POST' action='/product-create'>
 
-      <div class='form_list'>
-        <h1 class='form_title'>Список товарів</h1>
-        <div class='product_list'>
-          {{#with datas.products}}
-            {{#if isEmpty}}
-              <mark>Список пустий</mark>
-            {{else}}
-              <ul>
-                {{#each list}}
-                  <li>Назва товару :
-                    {{names}}
-                    / Ціна товару :
-                    {{price}}
-                    / Опис товару :
-                    {{description}}</li>
-                {{/each}}
-              </ul>
-            {{/if}}
-          {{/with}}
-        </div>
-      </div>
       <div class='form'>
 
         <div class='form_field form_field_0'>
@@ -55,12 +34,14 @@
 
         <div class='form_field form_field_3'><label
             class='form_label'
-          >Короткий опис</label>
-          <textarea
-            class='form_textarea'
-            rows='3'
-            cols='30'
-          ></textarea>
+          >Короткий опис товару</label>
+
+          <input
+            type='text'
+            name='description'
+            class='form_input'
+          />
+
         </div>
 
         <div class='form_field form_field_4'><button

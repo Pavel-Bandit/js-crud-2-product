@@ -1,0 +1,71 @@
+{{! 
+Це код container файлу для index сторінки, 
+в якому міститься код, котрий буде віддаватися по шляху (PATH) - "/"
+ }}
+
+ 
+{{> head-bootstrap}}
+
+
+
+{{#with data}}
+
+
+ <div class="form_mine">  
+<h5 class='card-title edit_name'> Інформація про товар
+        </h5>
+<div class="form-row ">
+
+
+    <div class="col-md-4 mb-4">
+      <label for="" class="label_edit">Назва товару</label>
+      <input type="text" class="form-control " id=""  value="{{names}}" required>
+      
+    </div>
+
+    <div class="col-md-4 mb-4">
+      <label for="" class="label_edit">Ціна</label>
+      <input type="number" class="form-control" id=""  value="{{price}}" required>
+    </div>
+
+   <div class="col-md-4 mb-4">
+      <label for="" class="label_edit">ID</label>
+      <input type="number" class="form-control" id=""  value="{{id}}" required>
+    </div>
+
+  <div class=" edit_description">
+      <label for="" class="label_edit">Короткий опис товару</label>
+      <input type="text" class="form-control input_description" id="" placeholder="" value="{{description}}" required>
+    </div>
+
+    
+
+  </div>
+
+<div class="row">
+<div class="col-6 div_primary">    <a href="/product-list"><button type="button"  class="btn btn-primary btn-lg edit_primary  ">Зберегти оновлення</button></a></div>
+<div class="col-6 div_danger">  <a href='/product-delete?id={{id}}'><button type="button" class="btn btn-danger btn-lg edit_danger">Видалити товар</button></a> </div>
+</div>
+ 
+   </div>
+
+{{/with}}
+
+  
+
+
+
+
+ 
+
+
+ 
+{{> body-bootstrap}}
+
+
+
+
+{{! 
+    Цей код містить лише те, що буде виводитись в <body>
+    Адже наш layout/default.hbs має вже структуру HTML
+}}

@@ -1,0 +1,26 @@
+@use '../../lib/service.scss' as s;
+
+.card {
+   margin: 24px;
+   border: 2px solid s.color('light');
+   box-shadow: 0px 0px 5px 2px s.color('light');
+   
+   
+}
+
+.product_name {
+  font-size: 24px;
+ } 
+ .product_description {
+font-size: 18px;
+ }
+ .product_price {
+display: flex;
+flex-direction: column;
+float: left;
+font-size: 18px;
+ }
+ .product_link {
+   float: right;
+   font-size: 18px;
+ }
