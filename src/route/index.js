@@ -224,7 +224,7 @@ router.get('/product-delete', function (req, res) {
     style: 'alert',
     data: {
       message: 'Успішне виконання дії',
-      info: 'Користувач видалений',
+      info: 'Товар видалений',
       link: '/product-list',
     },
   })
